@@ -1,0 +1,16 @@
+export { default as InstagramIcon } from "./Instagram";
+export { default as IGIcon } from "./IG";
+export { default as HomeFilledIcon } from "./HomeFilled";
+export { default as HomeIcon } from "./Home";
+export { default as SearchIcon } from "./Search";
+export { default as SearchFilledIcon } from "./SearchFilled";
+export { default as ExploreIcon } from "./Explore";
+export { default as ExploreFilledIcon } from "./ExploreFilled";
+export { default as ReelsIcon } from "./Reels";
+export { default as ReelsFilledIcon } from "./ReelsFilled";
+export { default as MessangerIcon } from "./Messanger";
+export { default as MessangerFilledIcon } from "./MessangerFilled";
+export { default as NotificationIcon } from "./Notification";
+export { default as NotificationFilledIcon } from "./NotificationFilled";
+export { default as CreateIcon } from "./Create";
+export { default as MoreIcon } from "./More";

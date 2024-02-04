@@ -1,4 +1,7 @@
+import "../styles/globals.css";
 import type { Metadata } from "next";
+import BreakpointProvider from "../context/breakpoint-provider";
+import { AppBar } from "../components";
 
 export const metadata: Metadata = {
   title: "Instagram",
@@ -7,7 +10,12 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }): JSX.Element => {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <BreakpointProvider>
+          <AppBar />
+          {children}
+        </BreakpointProvider>
+      </body>
     </html>
   );
 };
